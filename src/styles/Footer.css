@@ -1,0 +1,11 @@
+.footer_section {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer_section p {
+    margin: 0;
+    font-size: 16px;
+}

@@ -1,0 +1,19 @@
+header nav {
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 20px;
+    border-bottom: 6px solid var(--secondary-color);
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 19px;
+    color: var(--secondary-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header nav a:hover {
+    color: var(--primary-color);
+}

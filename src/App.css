@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color: #F0C244;
+  --secondary-color: #0B0421;
+  --text-color: #fff;
+  --background-color: #fffefe;
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Caveat', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Global Styles */
+body {
+  font-family: var(--font-primary);
+  background-color: var(--background-color);
+}
+
+@media (max-width: 768px) {
+  header nav {
+      flex-direction: column;
+      gap: 10px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .intro_name {
+      flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .intro_name .yellow, .intro_name .blue {
+      width: 100%;
+      height: auto;
+  }
+
+  .intro_name .yellow img {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .intro_name .blue .intro_text {
+      padding: 10px;
+      position: relative;
+      left: 0;
+      top: 0;
+  }
+
+  .project-cards {
+      flex-direction: column;
+  }
+
+  .project-card {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .contact_section {
+      padding: 20px;
+  }
+
+  .footer_section {
+      padding: 10px;
   }
 }

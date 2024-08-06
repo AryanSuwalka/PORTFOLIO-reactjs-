@@ -1,0 +1,56 @@
+:root {
+	--background-color: #F2F2F2;
+	--text-color: #000;
+	--link-color: #000;
+  }
+  
+  .info_section {
+	width: 100%;
+	background-color: var(--background-color);
+	height: 250px;
+	display: flex;
+	padding: 25px 45px 65px;
+	gap: 309px;
+  }
+  
+  .info_section img {
+	height: 170px;
+	width: 170px;
+  }
+  
+  .info_section div {
+	flex: 1;
+  }
+  
+  .info_section h3 {
+	margin-bottom: 10px;
+  }
+  
+  .info_section ul {
+	list-style-type: none;
+	height: 170px;
+	text-align: left;
+	padding: 0;
+  }
+  
+  .info_section ul li {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+  }
+  
+  .info_section ul li img {
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+  }
+  
+  .info_section ul li a {
+	color: var(--link-color);
+	text-decoration: none;
+  }
+  
+  .info_section ul li a:hover {
+	text-decoration: underline;
+  }
+  
